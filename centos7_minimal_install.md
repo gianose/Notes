@@ -90,7 +90,7 @@ $ visudo
 ```
 Add to following to line 99
 ```vim
-${ADMIN}     ALL=(ALL)     ALL
+${ADMIN}     ALL=(ALL)     NOPASSWD: ALL
 ```
 
 ```bash
